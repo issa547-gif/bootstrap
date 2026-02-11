@@ -60,7 +60,7 @@
             color:wheat;
         }
         .sectiontwo>.major>.body>.text>button{
-            background-color: rgb(240, 240, 12);
+            background-color: #FFD540;
             transition: 1s;
         }
         .sectiontwo>.major>.body>.text>button:hover{
@@ -68,11 +68,43 @@
         }
         .sectiontwo>.container>h1{
              color: black;
+             font-family: "Domine", serif;
+             font-size: 36px;
         }
          .sectiontwo>.container>p{
             color: black;
+            font-family: "Montserrat", sans-serif;
+            font-size: 20px;
          }
-        
+        .sectiontwo>.major>.body>.text>h2{
+              font-family: "Domine", serif;
+              color: #FFFFFF;
+              font-size: 36px;
+        }
+        .sectiontwo>.major>.body>.text>p{
+             font-family: "Montserrat, sans-serif";
+             color: #FFFFFF;
+             font-size: 20px;
+        }
+        .sectionthree>.cardtwo{
+            background-color: var(--secondary-color);
+        }
+        .sectionthree>.cardtwo>.body>.text>p{
+            color: #FFFFFF;
+            font-family: "Montserrat, sans-serif";
+            font-size: 20px;
+        }
+         .sectionthree>.cardtwo>.body>.text>h2{
+            color: #FFFFFF;
+            font-family:"Domine", serif ;
+            font-size: 36px;
+         }
+          .sectionthree>.cardtwo>.body>.text>button{
+            background-color:  #FFD540;
+          }
+          .sectionthree>.cardtwo>.body>.text>button:hover{
+            background-color: yellow;
+          }
     </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -121,6 +153,7 @@
     </section>
     <br><br>
     <br><br>
+  
     <section class="sectiontwo">
         <div class="container ">
             
@@ -130,8 +163,8 @@
         
         </div>
         <div class="major m-5 rounded-5 px-5 border-0 ">
-            <div class="">
-                    <img src="https://cdn.prod.website-files.com/5dbb30f00775d4c32191a4df/662bc922857e39c62a999032_leap_logo.png" alt="">
+            <div class="text-center pt-5">
+                    <img src="https://cdn.prod.website-files.com/5dbb30f00775d4c32191a4df/662bc922857e39c62a999032_leap_logo.png" alt="" width="70px">
             </div>
             <div class="body card-body d-flex align-items-center " >
                 
@@ -153,6 +186,31 @@
         </div>
 
         </div>
+
+
+
+    </section>
+    <section class="sectionthree">
+    <div class="cardtwo mx-5 rounded-5 px-5">
+        <div class="text-center mt-5 ">
+            <img src="https://cdn.prod.website-files.com/5dbb30f00775d4c32191a4df/662bc3af41b54d3110f467ae_microverse-logo-white.png" alt="" width="200">
+        </div>
+            
+            <div class="body card-body d-flex align-items-center px-5 " >
+                
+              <img src="https://cdn.prod.website-files.com/5dbb30f00775d4c32191a4df/662bc462600cefebdf7ba4fd_woman-microverse.webp"
+                    alt="" width="290px">
+                <div class="text m-auto  ">
+                    <h2 class="fw-bold  m-5">Microverse's Full-Stack Web Development Program</h2>
+                    <p class=" m-5">
+                        Become a remote software engineer, from anywhere. We're currently making 
+                        changes to our Full-Stack Web Development Program, so new enrollments are paused.
+                    </p>
+                        <button class="rounded-4 px-4 py-3 m-5 fw-bold">Learn More</button>
+                </div>
+            </div>
+
+    </div>
 
 
 
